@@ -1,0 +1,96 @@
+/* Reset default margin & padding */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: lightyellow; /* Dark background for contrast */
+  color: white;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Game Container */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightyellow;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+ }
+
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  color: red;
+  margin-bottom: 20px;
+  padding-top: 0px;
+}
+
+/* Game Canvas */
+#game {
+  border: 2px solid black;
+  background-color: white;
+  width: 600px;
+  height: 300px;
+}
+
+/* Score Box */
+.score-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightyellow;
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 200px;
+}
+
+/* Controls Box */
+.controls-box {
+  background-color: lightyellow;
+  border-radius: 20px;
+  padding: 10px; 
+  border-radius: 8px;  /* Rounded corners */
+  border: 2px solid red;  /* Adds a red border around the box */
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  width: 400px;
+  height: 120px;
+}
+  
+
+.controls-box h2 {
+  font-size: 1.2rem;
+  color: red;
+  padding-top: -40px;
+  justify-content: space-between;
+
+}
+
+.controls-box ul {
+  list-style-type: none;
+  padding: 0;
+  color:red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.controls-box li {
+  font-size: 0.8rem;
+  margin: 5px 0;
+  color: red;
+  width: 45%;
+}
